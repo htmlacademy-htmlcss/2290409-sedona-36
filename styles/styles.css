@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: PT sans;
+    font-style: normal;
+    font-weight: 400;
+    src:url(../fonts/pt-sans-regular.woff2) format(woff2);
+    font-display: swap;
+
+}
+@font-face {
+    font-family: PT sans;
+    font-style: normal;
+    font-weight: 700;
+    src:url(../fonts/pt-sans-bold.woff2) format(woff2);
+    font-display: swap;
+
+}
+@font-face {
+    font-family: PT sans;
+    font-style: italic;
+    font-weight: 400;
+    src:url(../fonts/pt-sans-italic.woff2) format(woff2);
+    font-display: swap;
+}
+@font-face {
+    font-family: PT sans;
+    font-style: normal;
+    font-weight: 700;
+    src:url(../fonts/pt-sans-regular.woff2) format(woff2);
+    font-display: swap;
+}
+/*PT Sans Narow*/
+@font-face {
+    font-family: PT Sans Narow;
+    font-style: normal;
+    font-weight: 700;
+    src:url(../fonts/pt-sans-narow-bold.woff2) format(woff2);
+    font-display: swap;
+}
+
+body {
+    font-family: PT Sans; sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424; ;
+    background-color:#ffffff ;
+}
+.page-header {
+    color: #242424;
+    background-color: #ffffff;
+}
+.navigation-link {
+    font-family:"PT Sans Narow",sans-serif;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #242424;
+    background-attachment: #ffffff;
+    text-decoration:none ;
+    text-transform: uppercase;
+}
+.main-index {
+    color: #242424;
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url(index-background\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.advantages-list {
+    text-align: left;
+}
+.advantages-title {
+    font-family: "PT Sans Narow",sans-serif ;
+    font-size :32px;
+    line-height:35px ;
+    text-transform:uppercase ;
+}
+.index-columns {
+    color:#242424
+    background-color:#ffffff
+}
+.services {
+    text-transform: uppercase;
+}
+.services-title {
+    font-size: 32 px;
+    line-height: 35px;
+    font-weight: 700;
+}
+.services-list {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.contacts-phone {
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #242424;
+}
